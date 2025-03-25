@@ -1,0 +1,35 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": ["Hi", "Hello", "Good day", "Hey", "Greetings"],
+			"responses": ["Hello!", "Hey there!", "Hi, how can I help?"]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": ["Goodbye", "Bye", "See you later", "I'm leaving"],
+			"responses": ["Goodbye! Take care.", "See you next time!", "Bye! Have a great day!"]
+		},
+		{
+			"tag": "programming",
+			"patterns": ["What is programming?", "Tell me about coding", "What is software development?"],
+			"responses": ["Programming is the process of writing instructions for computers to follow."]
+		},
+		{
+			"tag": "resource",
+			"patterns": ["Where can I learn coding?", "Best way to learn programming", "Recommend coding resources"],
+			"responses": ["Check out freeCodeCamp, Codecademy,w3 schools and YouTube tutorials."]
+		},
+		
+		{
+			"tag": "joke",
+			"patterns": ["Tell me a joke", "Say something funny", "I need a laugh"],
+			"responses": ["Why don't scientists trust atoms? Because they make up everything!"]
+		},
+		{
+			"tag": "small_talk",
+			"patterns": ["How are you?", "How's it going?", "What's up?"],
+			"responses": ["I'm great! How about you?", "Doing well! How's your day?", "All good! What about you?"]
+		}
+	]
+}
